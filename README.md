@@ -1,39 +1,39 @@
-# Sistema de Registro Universitario 🎓
+# 🎓 Registro Universitario Backend
 
-Este proyecto es una aplicación backend desarrollada con **Spring Boot**, que permite gestionar un sistema de registro universitario, incluyendo estudiantes, materias e inscripciones.
-
----
-
-## 📌 Funcionalidades principales
-
-✅ CRUD de Estudiantes  
-✅ CRUD de Materias  
-✅ CRUD de Inscripciones (relación entre estudiantes y materias)  
-✅ Validaciones y manejo de excepciones  
-✅ Seguridad con JWT (autenticación y autorización)  
-✅ Cache básico con anotaciones  
-✅ Conexión a base de datos PostgreSQL  
-✅ Concurrencia con `@Transactional`  
-✅ Pruebas con Postman  
+Bienvenido a mi proyecto de **Sistema de Registro Universitario** desarrollado en **Spring Boot**. Este backend gestiona todo lo necesario para administrar estudiantes, materias, docentes e inscripciones con seguridad y eficiencia.
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## 🚀 ¿Qué hace esta aplicación?
+
+- Gestiona **Estudiantes** (crear, actualizar, eliminar y listar)
+- Controla las **Materias** y su asignación a docentes
+- Administra las **Inscripciones** de estudiantes a materias
+- Implementa validaciones para asegurar datos correctos
+- Proporciona autenticación segura con **JWT** y roles
+- Expone la API documentada con **Swagger**
+- Usa **PostgreSQL** para almacenar datos persistentes
+- Integra **Redis** para mejorar el rendimiento con caché
+- Permite pruebas fáciles con **Postman**
+
+---
+
+## 🛠 Tecnologías
 
 - Java 17+
-- Spring Boot
-- Spring Data JPA
+- Spring Boot 3
 - Spring Security + JWT
 - PostgreSQL
+- Redis
 - Lombok
-- Cache con anotaciones (`@Cacheable`, `@EnableCaching`)
-- Postman (para pruebas)
+- Swagger UI
+- Postman para pruebas
 
 ---
 
-## ⚙️ Configuración del proyecto
+## ⚙️ Configura y ejecuta
 
-### 1. Clonar el repositorio
+1. Clona este repositorio:
 
-```bash
-git clone https://github.com/mayacadiz123/PRACTICA2-TAW251.git
+   ```bash
+   git clone https://github.com/rosio28/RegistroUniversitario.git
